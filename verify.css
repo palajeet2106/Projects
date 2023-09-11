@@ -1,0 +1,42 @@
+.verify{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0px 80px 550px ;
+}
+.verify h2{
+     margin-left: 80px;
+     font-size: 40px;
+  
+}
+.input{
+    width: 386px;
+    border-radius: 3px ;
+    border: 2px solid grey;
+    
+}
+.input:hover{
+    border: 2px solid #00AEE0;
+}
+::placeholder{
+    font-size: 23px;
+}
+.verify label{
+    font-size: 25px;
+   
+}
+.verify button{
+    width: 400px;
+    height: 45px;
+    margin-top:10px ;
+    background-color:orange;
+    border: 2px solid grey;
+    border-radius: 3px ;
+   
+}
+ .verify button a{
+    text-decoration: none;
+    color: #000;
+    font-size: 23px;
+
+}

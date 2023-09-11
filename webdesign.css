@@ -1,0 +1,233 @@
+.backg{
+    width: 1478px;
+    height: 520px;
+    background-image: url(image/header.jpg);
+    background-size: cover;
+    margin-bottom: 100px;
+    margin-top: 3px;
+   
+}
+.main{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    margin-bottom: 100px;
+}
+.left{
+    width: 100%;
+   
+}
+.leftimg img{
+    height: 490px;
+    width: 600px;
+    margin-left: 150px;
+}
+.leftpara h2{
+    font-size: 35px;
+    padding-top: 20px;
+    border-bottom: 2px solid green;
+    width: 70px;
+    margin-left: 150px;
+}
+hr{
+    width: 600px;
+    margin-left: 150px;
+}
+.leftpara h3{
+    font-size: 35px;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.leftpara p{
+    font-size: 25px;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 15px;
+
+}
+.leftpara h4{
+    font-size: 35px;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+.duration{
+    font-size: 25px;
+    margin-left: 150px;
+    margin-top: 15px;
+  
+}
+.duration1{
+    font-size: 28px;
+    font-weight: bold;
+ 
+}
+.duration2{
+   position: absolute;
+   left: 230px;
+   margin-top: 4px;
+}
+
+.list h5{
+    font-size: 26px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.list ul{
+    font-size: 25px;
+    margin-left: 190px;
+    margin-top: 10px;
+}
+.rightpara{
+    margin-right: 280px;
+}
+.rightpara button{
+    background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    box-shadow: 2px 2px 5px gray ;
+    padding: 10px;
+    width: 390px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.rightpara h2{
+    font-size: 35px;
+    margin-top: 40px;
+    border-bottom: 1px solid green;
+    width: 70px;
+}
+.rightpara hr{
+    margin-right: 501px;
+    width: 390px;
+    position: absolute;
+    left: 656px;
+}
+.rightpara p{
+    font-size: 26px;
+    margin-top: 20px;
+}
+.ratingbox{
+    padding-top: 10px;
+    font-size: 25px;
+    padding-left: -30px;
+    margin-top: 30px;
+  
+}
+span{
+  padding-left: -30px;
+  margin-right: 50px;
+  
+}
+
+span i{
+    font-size: 15px;
+    margin-left: 2px;
+
+}
+
+label{
+    font-size: 23px;
+    text-align: justify;
+   
+ 
+}
+input{
+    width: 375px;
+    height: 140px;
+    background-color: #F1F9FF;
+   
+   
+}
+.sub {
+   width: 150px;
+   margin-left:230px;
+   background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+   box-shadow: 2px 2px 5px gray ;
+   text-align:center ;
+   width: 150px;
+   height: 45px;
+   margin-top: 10px;
+   padding-top: 15px;
+}
+.sub a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+   
+}
+.review{
+    display: flex;
+   
+    margin-top: 40px;
+    flex-direction:column ;
+  
+}
+.review1{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.leftreview1 img{
+           height: 80px;
+           width: 80px;
+}
+.rightreview1 h6{
+    font-size: 26px;
+
+}
+.rightreview1 h6 i{
+    font-size: 17px;
+    margin-left: 5px;
+  
+}
+.rightreview1 p{
+   margin-top: -5px;
+}
+.review2{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.leftreview2 img{
+    height: 80px;
+    width: 80px;
+}
+.rightreview2 h6{
+font-size: 26px;
+
+}
+.rightreview2 h6 i{
+font-size: 17px;
+margin-left: 5px;
+
+}
+.rightreview2 p{
+margin-top: -5px;
+}
+.review3{
+    display: flex;
+    gap: 30px;
+}
+.leftreview3 img{
+    height: 80px;
+    width: 80px;
+}
+.rightreview3 h6{
+font-size: 26px;
+
+}
+.rightreview3 h6 i{
+font-size: 17px;
+margin-left: 5px;
+
+}
+.rightreview3 p{
+margin-top: -5px;
+}
+
+

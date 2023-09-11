@@ -1,0 +1,337 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Signika', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+
+.header{
+    width:100%;
+    height: max-content;
+    background-color: black;
+ 
+  
+}
+.header ul li{
+    color: white ;
+    font-size: 20px;
+    display: inline-block;
+    padding: 20px;
+    margin-left: 40px;
+    border-right: 1px solid white;
+    cursor: pointer;
+
+}
+.header ul li i{
+    cursor:default;
+}
+ ul li i{
+letter-spacing: 10px;
+}
+.right{
+    position:absolute;
+    right: 200px;
+    top: 8px;  
+   
+}
+.btn1{
+    background-color: orange;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.btn2{
+    background-color: green;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+.btn3{
+    background-color:red;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+
+} 
+.logo img{
+    height: 50px;
+    width: 150px;
+    padding: 30px 0px 0px 100px;
+   
+}
+.menu ul li{
+    display: inline-block;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+    
+    
+}
+.menu ul li:hover{
+    color: #00AEE0;
+}
+
+.menu{
+    position: absolute;
+    right:180px;
+    top: 100px;
+}
+.navbar{
+    width: 100%;
+    height: 130px;
+    box-shadow: 0px 1px 10px black;
+  
+}
+.submenu{
+    display: none;
+}
+.menu li:hover .submenu {
+    display: block;
+    position: absolute;
+    top: 50px;
+    width: 300px;
+    height: 350px;
+    background-color: white;
+  
+}
+.menu li:hover .submenu a{
+    text-decoration: none;
+    text-align: center; 
+}
+.menu li:hover .submenu li{
+    border-bottom: 2px solid grey;
+    width: 80%;
+    margin-top: -70px; 
+    
+}
+
+.submenu li:hover a{
+    background-color:#00AEE0;
+    color:white;
+
+}
+.banner{
+    background-image: url(image/newslider-3.jpg);
+    width: 100%;
+    height: 500px;
+    background-size:100% 100%;
+}
+.coursebox{
+    text-align: center;
+    padding: 30px;
+    background-color: #F8F9FA;
+   
+}
+.coursebox h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.box{
+    height: 250px;
+    width: 300px;
+    display:inline-block ;
+    margin: 10px;
+    background-color: #F7F7F7;
+    border: 2px solid #eee7e7;
+    padding: 15px;
+    border-radius: 3px;
+  
+}
+ .imagebox img{
+    width: 290px;
+    height: 180px;
+   
+}
+
+.view{
+      background-color: #F7C30D;
+      height: 40px;
+      width: 145px;
+      font-size: 25px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+  
+}
+.enroll{
+        background-color: #177fee;
+        height: 40px;
+        width: 145px;
+        font-size: 25px;
+        border: none;
+        border-radius: 3px;
+        color: #fff;
+        cursor: pointer;
+       
+}
+.box p{
+    color: red;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+
+.image img{
+           height: 550px;
+           width: 590px;
+           margin:  0px 0px 0px 205px;
+           background-color: #fff;
+           padding: 0px 10px 0px 10px;
+         
+}
+#box1{
+    display: flex;
+    gap: 10px;
+
+}
+.para h2{
+    font-size: 40px;
+    text-align: justify;
+    margin-right: 220px;
+    padding-top: 30px;
+}
+.para p{
+    font-size: 23px;
+    text-align: justify;
+    margin-right: 220px;
+}
+.para button{
+    background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    box-shadow: 0px 20px 50px rgba(0, 175, 224, 0.3);
+    padding: 10px;
+    width: 160px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+.box2{
+     display: flex;
+     gap: 10px;
+}
+.image2 img{
+    height: 520px;
+    width: 480px;
+    margin-left: 820px; 
+    margin-top: -400px;
+   
+}
+
+.para2 h2{
+    font-size: 40px;
+    text-align: justify;
+    padding-top: 30px;
+    margin-left: 230px;
+}
+.para2 p{
+    font-size: 23px;
+    text-align: justify;
+    margin-left: 230px;
+    margin-right: 730px;
+  
+}
+.para2  button{
+    background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    padding: 10px;
+    width: 160px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    margin-left: 230px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.para2  button:hover{
+    transition: all  linear 2s   ;
+    background: linear-gradient(to left, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+}
+
+.rating{
+    background-color: #F8F9FA;
+    width: 100%;
+    height: 500px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.rating h2{
+  
+    font-size: 50px;
+    padding-top: 20px;
+   
+}
+.rating img{
+    height: 40px;
+    width: 70px;
+}
+.rating i{
+    color: #F7C30D;
+}
+.rating p{
+    font-size: 30px;
+    padding-top: 40px;
+}
+ .rating #img img{
+   padding-top: 40px;
+   margin-left: 20px;
+   height: 100px;
+   width: 100px;
+  
+ 
+  
+}
+
+.footer{
+    display:flex;
+
+    justify-content: center;
+ 
+    width: 1380px;
+    height: 400px;
+    background-color: black;
+    color: white;
+    gap: 15px;
+    padding: 40px 0px 0px 100px;
+    line-height: 50px;
+    
+}
+.footer h2{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.footer p{
+          font-size: 15px;
+          text-align: justify;
+          font-family: sans-serif;
+          line-height: 30px;
+           padding-right: 40px;
+           padding-top: 10px;
+    
+}

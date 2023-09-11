@@ -1,0 +1,59 @@
+.enrollnow{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+form{
+    height: 590px;
+    width: 580px;
+  box-shadow: 1px 1px 10px grey;
+    border-radius: 5px;
+    padding: 25px;
+}
+form h2{
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid grey;
+    text-align: center;
+  
+}
+form label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+
+}
+form button,input{
+    width: 98%;
+    height: 45px;
+    margin-top:13px ;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 3px;
+  
+}
+form button{
+    width: 581px;
+    background-color: #00AEE0;
+    border-radius: 3px;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+
+}
+input:hover{
+    border: 2px solid #00AEE0;
+}
+form p a{
+    font-size: 22px;
+    color: #00AEE0;
+   font-weight: 600;
+   text-decoration: none;
+}
