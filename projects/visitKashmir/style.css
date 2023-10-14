@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#payment{
+   margin-left: 5px ;
+ 
+   
+}
+form label{
+ text-align: justify ;
+ margin-top: 10px;
+}
+input{
+    width: 80%;
+    margin-top: 10px;
+}
+form{
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+@media (max-width:426px) {
+     #signup form{
+        margin-left: 0px;
+    }
+}
+@media (max-width:768px) {
+    #signup form{
+        margin-left: 0px;
+    }
+}
+@media (max-width:1069px) {
+    #signup form{
+        margin-left: 0px;
+    }
+}
+.head{
+    margin-top:5px;
+    
+}
+.head::first-letter{
+    color: red;
+    font: size 35px;
+    initial-letter:2;
+    margin-top: -20px;
+    
+   
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+

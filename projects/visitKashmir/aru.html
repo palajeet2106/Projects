@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aru valley</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+   
+    <link rel="stylesheet" href="aru.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+        <!-- navbar stars here -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-info">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><h5 class="head">VISIT KASHMIR</h5></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link active dropdown-toggle " role="button" data-bs-toggle="dropdown" href="#" >Service</a>
+                    <ul class="dropdown-menu ">
+                      <li><a href="dal.html" class="dropdown-item">Dal Lake</a></li>
+                      <li><a href="aru.html" class="dropdown-item">Aru Valley</a></li>
+                      <li><a href="gulmarg.html" class="dropdown-item">Gulmarg</a></li>
+                      <li><a href="pahalgam.html" class="dropdown-item">Pahalgam</a></li>
+                      <li><a href="sonmarg.html" class="dropdown-item">Sonmarg</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#" data-bs-toggle="modal" data-bs-target="#contact">Contact</a>
+                      <!-- The Modal -->
+                                <div class="modal" id="contact">
+                                  <div class="modal-dialog ">
+                                    <div class="modal-content">
+    
+                                      <!-- Modal Header -->
+                                      <div class="modal-header bg-info">
+                                        <h4 class="modal-title">Contact Us</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                      </div>
+    
+                                      <!-- Modal body -->
+                                      <div class="modal-body ms-4">
+                                        <form action="#" method="post" enctype="multipart/form-data">
+                                          <label for=""><b>Email:</b></label><br>
+                                          <input type="email" placeholder="Enter Email" required><br/>
+                                          <label for=""><b>Contact Number:</b></label><br>
+                                          <input type="number" placeholder="Enter Contact Number" required><br/>
+                                          <label for=""><b>Date:</b></label><br/>
+                                          <input type="Date" required>
+                                        </form>
+                                      </div>
+    
+                                      <!-- Modal footer -->
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-success" data-bs-toggle="modal"><a href="#" class="text-white text-decoration-none">Submit</a></button>
+                                      </div>
+    
+                                    </div>
+                                  </div>
+                                </div>
+                    
+                  </li>
+                  
+                </ul>
+                
+                  <button class="btn btn-warning  me-2" type="button" data-bs-toggle="modal" data-bs-target="#signup">Sign Up</button>
+                  <div class="modal fade " id="signup">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+    
+                          <div class="container">
+    
+                            <div class="row">
+                              <div class="col-lg-2"></div>
+                              <div class="col-lg-8">
+                                <div class="card shadow">
+                                  <div class="card-header bg-info text-center text-white">
+                                   
+                                    <Strong>User Sign Up</Strong>
+                                  </div>
+                                  <div class="card-body">
+                                    <form action="#" method="post" enctype="multipart/form-data">
+                                      <div class="form-group">
+                                        <label for="">Name</label>
+                                        <input type="text" name="name" class="form-control" >
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="">Email</label>
+                                        <input type="email" name="name" class="form-control" >
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="">Contact Number</label>
+                                        <input type="number" name="contact" class="form-control" >
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="">Password</label>
+                                        <input type="password" name="password" class="form-control" >
+                                      </div>
+                                      
+                                      <div class="form-group">
+                                        <label for=""> Confirm Password</label>
+                                        <input type="password" name=" confirm password" class="form-control" >
+                                      </div>
+                                      <div class="form-group mt-3">
+                                        
+                                        <input type="submit" name="btn" class="form-control btn btn-primary"  >
+                                      </div>
+                                      
+                    
+                                    </form>
+                                  </div>
+                                  <div class="card-footer bg-success text-center text-white">
+                                    All Fields Mandatory
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-2"></div>
+                            </div>
+            
+                            
+                          </div>
+                        </div>
+                        <div class="modal-footer"></div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  <button class="btn btn-warning  me-2 " type="button" data-bs-toggle="modal" data-bs-target="#login">Log in</button>
+                  <div class="modal fade " id="login">
+                    <div class="modal-dialog modal-lg">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div> 
+                        <div class="modal-body">
+    
+                          <div class="container">
+    
+                            <div class="row">
+                              <div class="col-lg-2"></div>
+                              <div class="col-lg-8">
+                                <div class="card shadow">
+                                  <div class="card-header bg-info text-center text-white">
+                                    <Strong>User Log in</Strong>
+                                  </div>
+                                  <div class="card-body " style="margin-right: 30px;">
+                                    <form action="#" method="post" enctype="multipart/form-data">
+                                      <div class="form-group">
+                                        <label for="">Email</label>
+                                        <input type="email" name="name" class="form-control" >
+                                      </div>
+                                     
+                                      <div class="form-group">
+                                        <label for="">Password</label>
+                                        <input type="password" name="password" class="form-control" >
+                                      </div>
+                                      
+                                      
+                                      <div class="form-group mt-3">
+                                        
+                                        <input type="submit" name="btn" class="form-control btn btn-success"  >
+                                      </div>
+                                    
+                                    </form>
+                                  </div>
+                    
+                                </div>
+                              </div>
+                              <div class="col-lg-2"></div>
+                            </div>
+            
+                            
+                          </div>
+                        </div>
+                        <div class="modal-footer"></div>
+                       
+                      </div>
+                    </div>
+                  </div>
+                  
+                  </div>
+                
+              </div>
+            </div>
+          </nav>
+    
+          <!-- navbar ends here -->
+    
+          <!-- Carousel starts here -->
+    <div id="kanpur" class="carousel slide" data-bs-ride="carousel">
+    
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#kanpur" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#kanpur" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#kanpur" data-bs-slide-to="2"></button>
+        </div>
+      
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner  shadow">
+          <div class="carousel-item active ">
+            <img src="image/dal-lake.jpg" alt="image" class="d-block w-100 " style="height:500px">
+          </div>
+          <div class="carousel-item">
+            <img src="image/pic.jpeg" alt="image" class="d-block w-100" style="height:500px">
+          </div>
+          <div class="carousel-item">
+            <img src="image/pic1.jpg" alt="image" class="d-block w-100" style="height:500px">
+          </div>
+        </div>
+      
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#kanpur" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#kanpur" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+       <!-- Carousel ends here -->
+
+       <div class="heading text-center mt-5 "><h1>Aru valley</h1></div>
+       <div class="container mt-5 mb-5">
+       
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="image/aru.jpg" alt="aru">
+                
+            </div>
+            <div class="col-lg-6">
+                
+                <p style="text-align: justify;">Aru is a village, tourist spot in the Anantnag District of Jammu and Kashmir, India. It lies 53km from Anantnag city, the district headquarter. It is located around 12 km from Pahalgam, 11 km upstream from the Lidder River. Noted for its scenic meadows, lakes and mountains, it is a base camp for trekking to the Kolhoi Glacier, Tarsar Lake, Marsar and Herbaghwan Lake. The village lies on the left bank of the Aru river, which is a tributary of the Lidder river.[5] Jammu & Kashmir’s biggest Fodder Seed Product Station is also located in the Aru village.</p>
+            </div>
+            <div class="col-lg-6 mt-5">
+              
+                    <p style="text-align: justify;">The Aru valley is noted for its scenic meadows.[6][7] It is popular among the tourists for its peaceful environment and scenic beauty.
+
+                        The village is a base camp for trekkers to the Kolahoi Glacier, the Tarsar-Marsar lakes and the Katrinag valley. It is also a base for the treks to Lidderwat, the Vishansar-Kishansar lakes and Kangan.[1] The Kolahoi is the largest glacier in the Kashmir Valley, and is located near Mt. Kolahoi (5425m), the highest peak in the Valley. A number of hotels, restaurants and huts are available for boarding and lodging.
+                        
+                        There are about 20 alpine lakes, peaks and meadows around the Aru Valley. In the winters, when Aru receives heavy snowfall, skiing and heliskiing are practiced. Other popular tourist activities include fishing of trout in the Lidder river, trekking, hiking, horse riding, sightseeing and photography.</p>
+                </div>  
+                  
+                <div class="col-lg-6">
+                    
+                    <img src="image/Aruvillage.jpg" alt="aru" style=" margin-bottom:20px" class="img-fluid">
+                </div>
+                <div class="col-lg-6">
+                    <img src="image/ar.jpg" alt="aru"  style="margin-bottom: 20px;" class="img-fluid">
+                    
+                </div>
+                <div class="col-lg-6 mt-3">
+                    <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#ticket">Buy Tickets</button>
+                    <div class="modal" id="ticket">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header bg-success text-white">
+                                    <div class="modal-title "><h3>Book Your Tickets</h3></div>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                  
+                                </div>
+                                <div class="modal-body ms-5 ">
+                                    <input type="text" value="	&#8377; 200" readonly><br>
+                                    <div class="radio">Offline <input type="radio" name="o">
+                                        Online <input type="radio" name="o"></div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-warning" data-bs-toggle="modal">Pay Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+        
+      
+    
+      
+ <footer>
+    
+    <div class="container-fluid bg-dark text-white text-center p-3 ">Copyright © 2023-2030  Visit Kashmir.  Proudly created by Ajeet Pal.<div>
+    
+ </footer>
+        
+    
+</body>
+<script src="js/bootstrap.js"></script>
+</html>

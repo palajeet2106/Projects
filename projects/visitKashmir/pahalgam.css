@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.radio{
+    display: flex;
+    padding-left: 60px;
+    margin-right: 120px;
+    margin-top: 20px;
+}
